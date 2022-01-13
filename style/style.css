@@ -59,8 +59,9 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color:#E5E5E5; 
-    
+    border: 10px solid yellowgreen;
     width: 1440px;
+    
     
 }
 main{
@@ -68,13 +69,14 @@ main{
    flex-direction: column;
    align-items: center;
 }
-.container{
+.container {
     background-color: #FFFFFF;
     width:870px ;
     height: 679px;
     padding: 30px;
     margin-top: 21px;
-    border-radius: 5px;
+    
+   
    
 }
 
@@ -114,8 +116,8 @@ hr{
 }
 /* .....................top-blogs................................ */
 .section-title{
-    margin-top: 30px;
-    margin-bottom: 31px;
+    
+    margin-bottom: 11px;
 }
 .blogs{
     display: grid;
@@ -142,14 +144,42 @@ hr{
 }
 
 /* Third Section Copurses */
+.container-two{
+    width: 870px;
+    height: 362px;
+    background-color: #FFFFFF;
+    margin-bottom: 43px;
+    margin-right:285px ;
+    margin-left: 285px;
+    margin-top: 54px;
+    padding-left: 44px;
+    padding-right: 31px;
+    /* border: 7px solid olivedrab; */
+    
+   
+}
 .courses{
-    display: flex;
-    grid-column-gap: 24px;
+/*     
+    border: 7px solid olivedrab; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+
+    
+    
     
     
 }
 .course-thumbnail{
+   
+
+    grid-column-gap: 24px;
+    padding-bottom: 50px;
     margin-right: 24px;
+    box-shadow: 1px 1px 1px 1px #888888;
+    /* border: 7px solid olivedrab; */
+   
+    
 }
 .course-thumbnail img{
     width: 224px;
@@ -185,15 +215,20 @@ span{
 
 .ratings-clock{
     
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 .course-duration{
+    width: 94px;
+    height: 29px;
     background-color:#ada3a2a6 ;
     color: #FF4A60 ;
-    border-radius: 4px;
-    padding: 2px;
+    border-radius: 10px;
+    padding: 6px;
+    margin-right: 5px;
 
 }
 
