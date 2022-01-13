@@ -137,3 +137,23 @@ span{
     padding: 2px;
 
 }
+
+
+/* Media Query */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players, .blogs{
+      
+        grid-template-columns: repeat(1, 1fr);
+        
+        
+    }
+    .player, .blog, .courses{
+        flex-direction: column;
+    }
+    
+}
+
+
