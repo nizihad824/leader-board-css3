@@ -1,8 +1,67 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+/* header section start */
+.header-section{
+    width: 1440px;
+    height: 94px;
+    background-color:#562EFF
+    ;
+   display: flex;
+   justify-content:space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+
+}
+.idea{
+    display: flex;
+    margin-left: 285px;
+    align-items: center;
+    
+}
+.idea img{
+    width: 40px;
+    height: 51px;
+   padding-right: 15px;
+   ;
+   
+    
+
+}
+#idea-titel{
+    color:#FFFFFF ;
+    font-size: 24px;
+    padding-bottom: 25px;
+
+}
+
+
+.nav-display a{
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: 16px;
+    color:#FFFFFF ;
+}
+.nav-display{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap:36px ;
+    align-items: center;margin-right: 289px;
+}
+
+/*................................ Header section Done..................................... */
+
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color:#9F9F9F ;
+    background-color:#E5E5E5; 
+    border: 10px solid yellowgreen;
+    width: 1440px;
+    
 }
 main{
     display: flex;
@@ -140,7 +199,7 @@ span{
 
 /* 
 /* Media Query */
-@media only screen and (max-width:688px) {
+/* @media only screen and (max-width:688px) {
     .container{
         width: 100%;
     }
@@ -156,7 +215,7 @@ span{
     
 }
  
-/* ...................................Tablet devices.................... */
+/* ...................................Tablet devices.................... *
 @media only screen and (min-width:688px) and (max-width:992px) {
     .container{
         width: 100%;
@@ -171,7 +230,7 @@ span{
 
 
     } 
-    
+     */
 
 
 
